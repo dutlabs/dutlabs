@@ -4,6 +4,15 @@ app_publisher = "Dut Labs"
 app_description = "Customized theme for Dut Labs ERP"
 app_email = "sysadmin@dutlabs.com"
 app_license = "mit"
+app_logo_url = "/assets/dutlabs_theme/images/dutlabs-logo.svg"
+
+website_context = {
+    "app_logo": "/assets/dutlabs_theme/images/dutlabs-logo.png",
+	"favicon": "/assets/dutlabs_theme/images/dutlabs-logo.svg",
+	"splash_image": "/assets/dutlabs_theme/images/dutlabs-logo.png",
+}
+
+email_brand_image = "/assets/dutlabs_theme/images/dutlabs-logo.svg"
 
 # Apps
 # ------------------
@@ -15,7 +24,7 @@ app_license = "mit"
 # 	{
 # 		"name": "dutlabs_theme",
 # 		"logo": "/assets/dutlabs_theme/logo.png",
-# 		"title": "Dut Labs Theme",
+# 		"title": "Dut Labs",
 # 		"route": "/dutlabs_theme",
 # 		"has_permission": "dutlabs_theme.api.permission.has_app_permission"
 # 	}
@@ -83,7 +92,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "dutlabs_theme.install.before_install"
-# after_install = "dutlabs_theme.install.after_install"
+after_install = "dutlabs_theme.setup.install.after_install"
 
 # Uninstallation
 # ------------
