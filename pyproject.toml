@@ -1,7 +1,7 @@
 [project]
 name = "dutlabs_theme"
 authors = [
-    { name = "sysadmin@dutlabs.com", email = "sysadmin@dutlabs.com"}
+    { name = "Dut Labs", email = "sysadmin@dutlabs.com"}
 ]
 description = "Customized theme for Dut Labs ERP"
 requires-python = ">=3.10"

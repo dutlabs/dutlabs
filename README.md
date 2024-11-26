@@ -1,7 +1,7 @@
-## Dut Labs
+## Dut Labs Theme
 
 Customized theme for Dut Labs ERP
 
 #### License
 
-unlicense
+mit

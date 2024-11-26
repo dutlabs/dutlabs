@@ -1,9 +1,9 @@
 app_name = "dutlabs_theme"
-app_title = "Dut Labs"
-app_publisher = "sysadmin@dutlabs.com"
+app_title = "Dut Labs Theme"
+app_publisher = "Dut Labs"
 app_description = "Customized theme for Dut Labs ERP"
 app_email = "sysadmin@dutlabs.com"
-app_license = "unlicense"
+app_license = "mit"
 
 # Apps
 # ------------------
@@ -15,7 +15,7 @@ app_license = "unlicense"
 # 	{
 # 		"name": "dutlabs_theme",
 # 		"logo": "/assets/dutlabs_theme/logo.png",
-# 		"title": "Dut Labs",
+# 		"title": "Dut Labs Theme",
 # 		"route": "/dutlabs_theme",
 # 		"has_permission": "dutlabs_theme.api.permission.has_app_permission"
 # 	}
