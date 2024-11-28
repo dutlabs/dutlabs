@@ -4,7 +4,7 @@ app_publisher = "Dut Labs"
 app_description = "Customized theme for Dut Labs ERP"
 app_email = "sysadmin@dutlabs.com"
 app_license = "mit"
-app_logo_url = "/assets/dutlabs_theme/images/dutlabs-logo.svg"
+app_logo_url = "/assets/dutlabs_theme/images/dutlabs-logo.png"
 
 website_context = {
     "app_logo": "/assets/dutlabs_theme/images/dutlabs-logo.png",
