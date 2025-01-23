@@ -1,7 +1,7 @@
 app_name = "dutlabs_theme"
 app_title = "Dut Labs Theme"
 app_publisher = "Dut Labs"
-app_description = "Customized theme for Dut Labs ERP"
+app_description = "Customizations for Dut Labs ERP"
 app_email = "sysadmin@dutlabs.com"
 app_license = "mit"
 app_logo_url = "/assets/dutlabs_theme/images/dutlabs-logo.png"
@@ -17,7 +17,7 @@ email_brand_image = "/assets/dutlabs_theme/images/dutlabs-logo.svg"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -251,3 +251,7 @@ after_install = "dutlabs_theme.setup.install.after_install"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Setup Wizard
+# --------------------
+
+setup_wizard_success = "dutlabs_theme.setup.setup_wizard.setup_wizard_success"
