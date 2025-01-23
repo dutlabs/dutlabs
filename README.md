@@ -1,4 +1,4 @@
-## Dut Labs
+# Dut Labs
 
 Frappe app with tailored modifications and enhancements for Dut Labs' ERP system, in order to extend Frappe's core functionality and align it with specific business requirements.
 
