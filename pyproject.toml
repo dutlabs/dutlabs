@@ -1,9 +1,9 @@
 [project]
-name = "dutlabs_theme"
+name = "dutlabs"
 authors = [
     { name = "Dut Labs", email = "sysadmin@dutlabs.com"}
 ]
-description = "Customized theme for Dut Labs ERP"
+description = "Dut Labs' ERP customizations"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

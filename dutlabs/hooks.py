@@ -1,18 +1,18 @@
-app_name = "dutlabs_theme"
-app_title = "Dut Labs Theme"
+app_name = "dutlabs"
+app_title = "Dut Labs"
 app_publisher = "Dut Labs"
 app_description = "Customizations for Dut Labs ERP"
 app_email = "sysadmin@dutlabs.com"
 app_license = "mit"
-app_logo_url = "/assets/dutlabs_theme/images/dutlabs-logo.png"
+app_logo_url = "/assets/dutlabs/images/dutlabs-logo.png"
 
 website_context = {
-    "app_logo": "/assets/dutlabs_theme/images/dutlabs-logo.png",
-	"favicon": "/assets/dutlabs_theme/images/dutlabs-logo.svg",
-	"splash_image": "/assets/dutlabs_theme/images/dutlabs-logo.png",
+    "app_logo": "/assets/dutlabs/images/dutlabs-logo.png",
+	"favicon": "/assets/dutlabs/images/dutlabs-logo.svg",
+	"splash_image": "/assets/dutlabs/images/dutlabs-logo.png",
 }
 
-email_brand_image = "/assets/dutlabs_theme/images/dutlabs-logo.svg"
+email_brand_image = "/assets/dutlabs/images/dutlabs-logo.svg"
 
 # Apps
 # ------------------
@@ -22,11 +22,11 @@ required_apps = ["erpnext"]
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "dutlabs_theme",
-# 		"logo": "/assets/dutlabs_theme/logo.png",
+# 		"name": "dutlabs",
+# 		"logo": "/assets/dutlabs/logo.png",
 # 		"title": "Dut Labs",
-# 		"route": "/dutlabs_theme",
-# 		"has_permission": "dutlabs_theme.api.permission.has_app_permission"
+# 		"route": "/dutlabs",
+# 		"has_permission": "dutlabs.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -34,15 +34,15 @@ required_apps = ["erpnext"]
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/dutlabs_theme/css/dutlabs_theme.css"
-# app_include_js = "/assets/dutlabs_theme/js/dutlabs_theme.js"
+# app_include_css = "/assets/dutlabs/css/dutlabs.css"
+# app_include_js = "/assets/dutlabs/js/dutlabs.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/dutlabs_theme/css/dutlabs_theme.css"
-# web_include_js = "/assets/dutlabs_theme/js/dutlabs_theme.js"
+# web_include_css = "/assets/dutlabs/css/dutlabs.css"
+# web_include_js = "/assets/dutlabs/js/dutlabs.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "dutlabs_theme/public/scss/website"
+# website_theme_scss = "dutlabs/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -60,7 +60,7 @@ required_apps = ["erpnext"]
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "dutlabs_theme/public/icons.svg"
+# app_include_icons = "dutlabs/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -84,43 +84,43 @@ required_apps = ["erpnext"]
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "dutlabs_theme.utils.jinja_methods",
-# 	"filters": "dutlabs_theme.utils.jinja_filters"
+# 	"methods": "dutlabs.utils.jinja_methods",
+# 	"filters": "dutlabs.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "dutlabs_theme.install.before_install"
-after_install = "dutlabs_theme.setup.install.after_install"
+# before_install = "dutlabs.install.before_install"
+after_install = "dutlabs.setup.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "dutlabs_theme.uninstall.before_uninstall"
-# after_uninstall = "dutlabs_theme.uninstall.after_uninstall"
+# before_uninstall = "dutlabs.uninstall.before_uninstall"
+# after_uninstall = "dutlabs.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "dutlabs_theme.utils.before_app_install"
-# after_app_install = "dutlabs_theme.utils.after_app_install"
+# before_app_install = "dutlabs.utils.before_app_install"
+# after_app_install = "dutlabs.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "dutlabs_theme.utils.before_app_uninstall"
-# after_app_uninstall = "dutlabs_theme.utils.after_app_uninstall"
+# before_app_uninstall = "dutlabs.utils.before_app_uninstall"
+# after_app_uninstall = "dutlabs.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "dutlabs_theme.notifications.get_notification_config"
+# notification_config = "dutlabs.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -159,39 +159,39 @@ after_install = "dutlabs_theme.setup.install.after_install"
 
 # scheduler_events = {
 # 	"all": [
-# 		"dutlabs_theme.tasks.all"
+# 		"dutlabs.tasks.all"
 # 	],
 # 	"daily": [
-# 		"dutlabs_theme.tasks.daily"
+# 		"dutlabs.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"dutlabs_theme.tasks.hourly"
+# 		"dutlabs.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"dutlabs_theme.tasks.weekly"
+# 		"dutlabs.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"dutlabs_theme.tasks.monthly"
+# 		"dutlabs.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "dutlabs_theme.install.before_tests"
+# before_tests = "dutlabs.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "dutlabs_theme.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "dutlabs.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "dutlabs_theme.task.get_dashboard_data"
+# 	"Task": "dutlabs.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -205,13 +205,13 @@ after_install = "dutlabs_theme.setup.install.after_install"
 
 # Request Events
 # ----------------
-# before_request = ["dutlabs_theme.utils.before_request"]
-# after_request = ["dutlabs_theme.utils.after_request"]
+# before_request = ["dutlabs.utils.before_request"]
+# after_request = ["dutlabs.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["dutlabs_theme.utils.before_job"]
-# after_job = ["dutlabs_theme.utils.after_job"]
+# before_job = ["dutlabs.utils.before_job"]
+# after_job = ["dutlabs.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -241,7 +241,7 @@ after_install = "dutlabs_theme.setup.install.after_install"
 # --------------------------------
 
 # auth_hooks = [
-# 	"dutlabs_theme.auth.validate"
+# 	"dutlabs.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
@@ -254,4 +254,4 @@ after_install = "dutlabs_theme.setup.install.after_install"
 # Setup Wizard
 # --------------------
 
-setup_wizard_success = "dutlabs_theme.setup.setup_wizard.setup_wizard_success"
+setup_wizard_success = "dutlabs.setup.setup_wizard.setup_wizard_success"
